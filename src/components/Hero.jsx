@@ -1,5 +1,6 @@
 import React from 'react'
-import { Up } from './common/Icons'
+import Icons from './common/Icons'
+
 
 const Hero = () => {
     return (
@@ -9,7 +10,7 @@ const Hero = () => {
                 <p className='text-base font-normal leading-[150%] mt-4 text-center text-secondary lg:text-left'>We're not a software company pretending to care. We're real underwriters — with real decision-making power — using tech to move faster, not think for us.</p>
                 <div className='flex justify-center lg:justify-start'>
                     <button className=' group bg-ternary mt-8 hover:bg-white hover:text-ternary hover:border hover:border-ternary flex w-57.75 h-15 rounded-[200px] justify-center items-center gap-1.5 font-semibold text-base text-white'>
-                        Join the Success <Up />
+                        Join the Success <Icons icon={"Up"}/>
                     </button>
                 </div>
             </div>

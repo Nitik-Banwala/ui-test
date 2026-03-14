@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Logo } from "./Icons";
+
 import { useEffect } from "react";
+import Icons from "./Icons";
 
 const navLinks = ["Home", "Programs", "How It Works", "Testimonial", "About"];
 
@@ -25,10 +26,10 @@ const Navbar = () => {
         <div className="relative">
             <div className="flex max-w-285 mx-auto justify-between items-center px-4 py-5">
 
-                <div className="cursor-pointer"><Logo /></div>
+                <div className="cursor-pointer"> <Icons  icon={"logo"}/> </div>
                 <div className="lg:flex gap-6 hidden">
                     {navLinks.map(link => (
-                        <h1 key={link} className={`${link === "Home" && "font-semibold" } hover:underline  text-base text-secondary cursor-pointer`}>{link}</h1>
+                        <h1 key={link} className={`${link === "Home" && "font-semibold"} hover:underline  text-base text-secondary cursor-pointer`}>{link}</h1>
                     ))}
                 </div>
 
@@ -39,7 +40,7 @@ const Navbar = () => {
                     <span className={`block w-7 h-0.5 bg-primary transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`} />
                     <span className={`block w-7 h-0.5 bg-primary transition-all duration-300 ${isOpen ? "opacity-0" : ""}`} />
                     <span className={`block w-7 h-0.5 bg-primary transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-                </button> 
+                </button>
             </div>
             <div onClick={() => setIsOpen(false)} className={`lg:hidden fixed inset-0 bg-black/30 z-30 transition-opacity duration-300 ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} />
             <div className={`lg:hidden fixed top-0 right-0 h-full w-72 bg-white z-40 flex flex-col pt-24 px-8 gap-6 transition-transform duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>

@@ -2,7 +2,12 @@ import { useState } from 'react'
 import './index.css'
 import Navbar from './components/common/Navbar'
 import Hero from './components/Hero'
-// import BetterSection from './components/Footer'
+import BetterSection from './components/Lending'
+import Behind from './components/Behind'
+import Results from './components/Results'
+import WorkedWithRabbit from './components/Rabbit'
+import Funding from './components/Funding'
+import Discover from './components/Discover'
 
 function App() {
 
@@ -13,9 +18,22 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-        {/* <div className='p-4 bg-gray h-96 '>
-          <BetterSection/>
-        </div> */}
+        <div className='mt-18.5' >
+          <BetterSection />
+        </div>
+        <Behind />
+        <div className='mt-42.5'>
+          <Results/>
+        </div>
+        <div className='mt-42.5'>
+          <WorkedWithRabbit/>
+        </div>
+        <div className='mt-42.5'>
+          <Funding/>
+        </div>
+        <div className='mt-42.5 mb-25'>
+          <Discover/>
+        </div>
       </div>
     </>
   )

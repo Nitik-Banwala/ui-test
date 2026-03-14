@@ -15,7 +15,9 @@ button{
   --color-hard:#479a0c;
   --color-green: #5daf50;
   --color-gray:#F5F5F5;
+  --color-dark:#0101013D;
 
   /* / Font Sizes  */
   --text-custom-5xl: 52px;
+  --text-custom-1xl: 18px;
 }
