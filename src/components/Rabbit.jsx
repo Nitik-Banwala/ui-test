@@ -2,7 +2,7 @@ import Icons from "./common/Icons";
 
 const WorkedWithRabbit = () => {
     return (
-        <div className="bg-[linear-gradient(180deg,#4CAF501A_0%,#4CAF5000_100%)] mt-42.5 px-4 ">
+        <div className="bg-[linear-gradient(180deg,#4CAF501A_0%,#4CAF5000_100%)] mt-32.5 md:mt-42.5 px-4 ">
             <div className="max-w-[743.29px] mx-auto min-[730px]:py-25 py-50 flex justify-center items-center">
                 <div className="z-0  ">
                  

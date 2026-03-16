@@ -4,7 +4,7 @@ import Icons from './common/Icons';
 const Funding = () => {
     return (
         <div>
-            <div className='flex flex-col mt-42.5 max-w-285 mx-auto px-4 justify-center items-center text-center'>
+            <div className='flex flex-col mt-32.5 md:mt-42.5 max-w-285 mx-auto px-4 justify-center items-center text-center'>
                 <h1 className='font-bold text-primary sm:text-5xl text-4xl leading-[120%]'>
                     Real People. Real Results.
                 </h1>
@@ -13,17 +13,17 @@ const Funding = () => {
                     {CARDDATA.map((data, index) => (
                         <div
                             key={index}
-                            className='min-[1157.1px]:w-[364.1px] max-w-w-[364.1px] h-auto p-6 rounded-3xl shadow-[0_4px_54px_0_rgba(0,0,0,0.05)]'
+                            className='min-[1157.1px]:w-[364.1px] max-w-[364.1px] h-[240.1px] max:[400.1px]:h-auto p-6 rounded-3xl shadow-[0_4px_54px_0_rgba(0,0,0,0.05)]'
                         >
-                            <div className='flex flex-col h-full sm:max-h-[364.1px] justify-between'>
-                                <div className='mb-6 sm:mb-12'>
+                            <div className='flex flex-col h-full  justify-between'>
+                                <div >
                                     <Icons icon={data.stars} />
                                     <p className='text-left mt-4 max-w-127.5 font-normal text-base leading-[150%] text-secondary'>
                                         {data.text}
                                     </p>
                                 </div>
 
-                                <div >
+                                <div className='max-[400.1px]:mt-2' >
                                     <div className='w-full border-t border-secondary opacity-10'></div>
                                     <div className=' gap-x-3 w-full sm:max-w-127.5 pt-4 flex flex-row'>
                                         <img src={data.image} alt="" className='shrink-0 max-w-12.5 max-h-12.5 w-full h-full' />
