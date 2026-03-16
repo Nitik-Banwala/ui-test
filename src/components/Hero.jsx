@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='flex justify-center lg:block mt-6 lg:mt-0'>
-                <img src="/assets/images/Hero.png" alt="" className='mt-10 min-[1299px]:translate-x-20 min-[1220px]:translate-x-10 translate-x-5  max-w-full' />
+                <img src="/assets/images/Hero.webp" alt="" className='mt-10 min-[1299px]:translate-x-20 min-[1220px]:translate-x-10 translate-x-5  max-w-full' />
             </div>
         </div>
     )

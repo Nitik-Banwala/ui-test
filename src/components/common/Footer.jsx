@@ -3,12 +3,12 @@ import Icons from './Icons'
 
 const Footer = () => {
     return (
-        <div>
-            <div className='mt-25 flex flex-col justify-center items-center max-w-[996.1px] mx-auto px-4 '>
-                <div className='max-w-[298.1px] w-full  mx-auto'>
+        <div className='px-4'>
+            <div className='mt-25 flex flex-col justify-center items-center max-w-[996.1px] mx-auto  '>
+                <div className='max-w-[200.1px]  w-full  mx-auto'>
                     <Icons icon={"footerlogo"} />
                 </div>
-                <div className='w-full mt-15 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-6'>
+                <div className='w-full mt-15 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-y-10 '>
                     <div className='col-span-2 sm:col-span-1 w-full'>
                         <h1 className='sm:text-base text-sm text-secondary font-semibold leading-[100%] mb-3'>
                             Rated 4.9 on trustpilot.
@@ -28,7 +28,7 @@ const Footer = () => {
                         <li className='text-base font-normal leading-[150%] text-secondary'>Terms & Conditions</li>
                         <li className='text-base font-normal leading-[150%] text-secondary'>Privacy Policy</li>
                     </ul>
-                    <ul className='gap-y-3 flex flex-col w-full col-span-2 sm:col-span-1'>
+                    <ul className='gap-y-3 flex max-w-[247.1px] flex-col w-full '>
                         <h1 className='text-base font-semibold leading-[100%] text-secondary'>Contact</h1>
                         <li className='text-base font-normal leading-[150%] text-secondary flex flex-row gap-3.5 items-start'>
                             <Icons icon={"phone"} /> 520-702-5510
