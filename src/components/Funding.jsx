@@ -4,7 +4,7 @@ import Icons from './common/Icons';
 const Funding = () => {
     return (
         <div>
-            <div className='flex flex-col max-w-285 mx-auto px-4 justify-center items-center text-center'>
+            <div className='flex flex-col mt-42.5 max-w-285 mx-auto px-4 justify-center items-center text-center'>
                 <h1 className='font-bold text-primary sm:text-5xl text-4xl leading-[120%]'>
                     Real People. Real Results.
                 </h1>

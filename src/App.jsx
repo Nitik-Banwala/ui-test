@@ -8,6 +8,7 @@ import Results from './components/Results'
 import WorkedWithRabbit from './components/Rabbit'
 import Funding from './components/Funding'
 import Discover from './components/Discover'
+import Footer from './components/common/Footer'
 
 function App() {
 
@@ -18,22 +19,13 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-        <div className='mt-18.5' >
-          <BetterSection />
-        </div>
+        <BetterSection />
         <Behind />
-        <div className='mt-42.5'>
-          <Results/>
-        </div>
-        <div className='mt-42.5'>
-          <WorkedWithRabbit/>
-        </div>
-        <div className='mt-42.5'>
-          <Funding/>
-        </div>
-        <div className='mt-42.5 mb-25'>
-          <Discover/>
-        </div>
+        <Results />
+        <WorkedWithRabbit />
+        <Funding />
+        <Discover />
+        <Footer/>
       </div>
     </>
   )

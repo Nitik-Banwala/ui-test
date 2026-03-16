@@ -4,7 +4,7 @@ import Icons from "./common/Icons";
 
 const BetterSection = () => {
     return (
-        <div className="w-full mx-auto bg-gray py-15">
+        <div className="w-full mx-auto bg-gray py-15 mt-18.5">
             <div className="max-w-302 mx-auto px-6">
                 <h1 className="font-bold text-center text-[#1A1A1A] leading-[120%] text-4xl md:text-5xl">
                     Better Tech. Better Team. Better Lending

@@ -3,6 +3,7 @@
 
 button{
   cursor: pointer;
+  transition: 0.3s;
 }
 *{
   font-family: "Montserrat", sans-serif;
@@ -16,6 +17,7 @@ button{
   --color-green: #5daf50;
   --color-gray:#F5F5F5;
   --color-dark:#0101013D;
+  --color-black:#191919;
 
   /* / Font Sizes  */
   --text-custom-5xl: 52px;

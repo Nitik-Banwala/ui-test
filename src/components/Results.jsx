@@ -4,7 +4,7 @@ import Icons from './common/Icons';
 const Results = () => {
     return (
         <div>
-            <div className='flex flex-col max-w-293 px-4 mx-auto justify-center items-center text-center'>
+            <div className='flex flex-col max-w-293 mt-42.5  px-4 mx-auto justify-center items-center text-center'>
                 <h1 className='font-bold text-primary sm:text-5xl text-4xl leading-[120%]'>
                     Real People. Real Results.
                 </h1>
