@@ -1,25 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
 
-button{
+button {
   cursor: pointer;
   transition: 0.3s;
 }
-*{
+
+a {
+  text-decoration: none;
+}
+.span{
+  font-family: "Rubik", sans-serif;
+}
+* {
   font-family: "Montserrat", sans-serif;
 }
+
 @theme {
   /* /*  Colors / */
   --color-primary: #2b2b2b;
   --color-secondary: #4e4e4e;
   --color-ternary: #7AC943;
-  --color-hard:#479a0c;
+  --color-hard: #479a0c;
   --color-green: #5daf50;
-  --color-gray:#F5F5F5;
-  --color-dark:#0101013D;
-  --color-black:#191919;
+  --color-gray: #F5F5F5;
+  --color-dark: #0101013D;
+  --color-black: #191919;
 
   /* / Font Sizes  */
   --text-custom-5xl: 52px;
   --text-custom-1xl: 18px;
+}
+
+
+
+a {
+  position: relative;
+  width: fit-content;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--color-secondary);
+  transition: width 0.3s ease;
+}
+
+a:hover::before {
+  width: 100%;
 }

@@ -24,12 +24,14 @@ const Navbar = () => {
 
     return (
         <div className="relative">
-            <div className="flex max-w-285 mx-auto justify-between items-center px-4 py-5">
+            <div className="flex max-w-285 mx-auto justify-between items-center lg:px-4 lg:py-5">
 
-                <div className="cursor-pointer"> <Icons  icon={"logo"}/> </div>
+                <div className="cursor-pointer sm:max-w-[132.1px] max-w-[90.1px] sm:max-h-15 w-full h-full">
+                    <img src="/assets/images/svg/footerlogo.svg" alt="" />
+                </div>
                 <div className="lg:flex gap-6 hidden">
                     {navLinks.map(link => (
-                        <h1 key={link} className={`${link === "Home" && "font-semibold"} hover:underline  text-base text-secondary cursor-pointer`}>{link}</h1>
+                        <a key={link} className={`${link === "Home" ? " font-semibold text-primary" :" text-secondary "} hover:underline  text-base cursor-pointer`}>{link}</a>
                     ))}
                 </div>
 
@@ -45,11 +47,11 @@ const Navbar = () => {
             <div onClick={() => setIsOpen(false)} className={`lg:hidden fixed inset-0 bg-black/30 z-30 transition-opacity duration-300 ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} />
             <div className={`lg:hidden fixed top-0 right-0 h-full w-72 bg-white z-40 flex flex-col pt-24 px-8 gap-6 transition-transform duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
                 {navLinks.map(link => (
-                    <h1 key={link} onClick={() => setIsOpen(false)} className="cursor-pointer text-primary  text-base hover:font-semibold border-b border-gray-100 pb-4 hover:text-green transition-colors">
+                    <a key={link} onClick={() => setIsOpen(false)} className={` ${link === "Home" && "font-semibold text-primary"}cursor-pointer text-primary  text-base hover:font-semibold border-b border-gray-100 pb-4 hover:text-green transition-colors`}>
                         {link}
-                    </h1>
+                    </a>
                 ))}
-                <button className="hover:bg-ternary hover:border-0  hover:text-white h-14 border-2 rounded-[200px] border-primary text-primary text-base transition-colors">
+                <button className="hover:bg-ternary hover:border-0 font-semibold hover:text-white h-14 border-2 rounded-[200px] border-primary text-primary text-base transition-colors">
                     Contact Us
                 </button>
             </div>

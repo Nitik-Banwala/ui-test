@@ -62,7 +62,7 @@ export const CARDDATA = [
         stars: "rating",
         text: "They looked at my actual business, not just my credit. We’ve grown 30% since funding.",
         name: "Dave R.",
-        role: "CLandscaping Contractor, Dallas TX",
+        role: "Landscaping Contractor, Dallas TX",
         image: "/assets/images/Funding2.webp",
     },
     {
