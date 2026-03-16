@@ -28,12 +28,12 @@ const Footer = () => {
                         <li className='text-base font-normal leading-[150%] text-secondary'>Terms & Conditions</li>
                         <li className='text-base font-normal leading-[150%] text-secondary'>Privacy Policy</li>
                     </ul>
-                    <ul className='gap-y-3 flex max-w-[247.1px] flex-col w-full '>
+                    <ul className='gap-y-3 flex max-w-[257.1px] flex-col w-full '>
                         <h1 className='text-base font-semibold leading-[100%] text-secondary'>Contact</h1>
                         <li className='text-base font-normal leading-[150%] text-secondary flex flex-row gap-3.5 items-start'>
                             <Icons icon={"phone"} /> 520-702-5510
                         </li>
-                        <li className='text-base font-normal leading-[150%] text-secondary flex flex-row gap-2 items-start'>
+                        <li className='text-base font-normal leading-[150%] text-secondary underline flex flex-row gap-2 items-start'>
                             <Icons icon={"mail"} /> Admin@rabbitfunding.io
                         </li>
                         <li className='text-base font-normal leading-[150%] text-secondary flex flex-row gap-2 items-start'>
