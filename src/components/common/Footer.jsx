@@ -14,9 +14,9 @@ const ContactList = ({ className }) => (
 
 const Footer = () => {
     return (
-        <div className='px-4 bg-gray min-[330px]:mt-95 min-[299px]:mt-105 min-[342px]:mt-85 min-[398px]:mt-80 min-[546px]:mt-70'>
-            <div className='pt-50 pb-15 flex flex-col justify-center items-center max-w-[996.1px] mx-auto'>
-                <div className='md:max-w-[298.1px] max-w-[198.1px] sm:max-h-[136.1px] max-h-[73.1px] h-full w-full mx-auto'>
+        <div className='px-4 bg-gray'>
+            <div className='sm:pt-25 pt-19 pb-15 flex flex-col justify-center items-center max-w-[996.1px] mx-auto'>
+                <div className='sm:max-w-[298.1px] max-w-[198.1px] sm:max-h-[136.1px] max-h-[73.1px] h-full w-full mx-auto'>
                     <img src="/assets/images/svg/footerlogo.svg" alt="kfdn" />
                 </div>
                 <div className='w-full mt-15 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10'>
