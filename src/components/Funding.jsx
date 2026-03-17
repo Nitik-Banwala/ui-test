@@ -8,7 +8,7 @@ const Funding = () => {
                 <h2 className='font-bold  text-primary sm:text-5xl text-3xl leading-[120%]'>
                     Real Stories. Real Funding.
                 </h2>
-                <p className='text-secondary text-base leading-[150%] font-normal max-w-147.5 '>We’ve helped small businesses from all industries get approved and grow fast. Here’s what they had to say:</p>
+                <p className='text-secondary text-sm sm:text-base leading-[150%] font-normal max-w-147.5 '>We’ve helped small businesses from all industries get approved and grow fast. Here’s what they had to say:</p>
                 <div className='mt-15 grid min-[792px]:grid-cols-2 min-[1157.1px]:grid-cols-3 gap-6 w-full justify-items-center max-[320px]:justify-items-stretch'>
                     {CARDDATA.map((data, index) => (
                         <div
