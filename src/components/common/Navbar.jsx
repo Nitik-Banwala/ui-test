@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="flex max-w-285 mx-auto justify-between items-center lg:px-4 lg:py-5">
 
                 <div className="cursor-pointer sm:max-w-[132.1px] max-w-[90.1px] sm:max-h-15 w-full h-full">
-                    <img src="/assets/images/svg/footerlogo.svg" alt="" />
+                    <img src="/assets/images/svg/footerlogo.svg" alt="idkhsfjbad,nm" />
                 </div>
                 <div className="lg:flex gap-6 hidden">
                     {navLinks.map(link => (
@@ -35,10 +35,10 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                <button className="lg:block hidden hover:border-0 text-base hover:bg-ternary hover:text-white w-38.75 h-14 border-2 rounded-[200px] border-primary text-primary">
+                <button aria-label="Open men" className="lg:block hidden hover:border-0 text-base hover:bg-ternary hover:text-white w-38.75 h-14 border-2 rounded-[200px] border-primary text-primary">
                     Contact Us
                 </button>
-                <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden flex flex-col gap-1.5 w-10 h-10 justify-center items-center z-50">
+                <button aria-label="Open me" onClick={() => setIsOpen(!isOpen)} className="lg:hidden flex flex-col gap-1.5 w-10 h-10 justify-center items-center z-50">
                     <span className={`block w-7 h-0.5 bg-primary transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`} />
                     <span className={`block w-7 h-0.5 bg-primary transition-all duration-300 ${isOpen ? "opacity-0" : ""}`} />
                     <span className={`block w-7 h-0.5 bg-primary transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""}`} />
@@ -51,7 +51,7 @@ const Navbar = () => {
                         {link}
                     </a>
                 ))}
-                <button className="hover:bg-ternary hover:border-0 font-semibold hover:text-white h-14 border-2 rounded-[200px] border-primary text-primary text-base transition-colors">
+                <button aria-label="Open m" className="hover:bg-ternary hover:border-0 font-semibold hover:text-white h-14 border-2 rounded-[200px] border-primary text-primary text-base transition-colors">
                     Contact Us
                 </button>
             </div>

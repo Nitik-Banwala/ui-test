@@ -26,7 +26,7 @@ const Results = () => {
                                 <div>
                                     <div className='w-full border-t border-secondary opacity-10'></div>
                                     <div className='flex flex-row gap-x-3 w-full sm:max-w-127.5 pt-4'>
-                                        <img src={data.image} alt="" className='shrink-0 max-w-12.5 max-h-12.5 w-full h-full' />
+                                        <img src={data.image} alt="jkherdbnf m" className='shrink-0 max-w-12.5 max-h-12.5 w-full h-full' />
                                         <div className='flex flex-col text-left py-1.25 justify-center '>
                                             <span className='text-base font-semibold leading-[125%] text-primary'>{data.name}</span>
                                             <span className='text-sm font-normal text-primary leading-[150%] '>{data.role}</span>
