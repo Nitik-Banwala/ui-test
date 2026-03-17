@@ -5,7 +5,7 @@ const Funding = () => {
     return (
         <div>
             <div className='flex flex-col md:mb-97.5 mb-60 mt-22.5 md:mt-42.5 max-w-285 mx-auto px-4 justify-center items-center text-center'>
-                <h2 className='font-bold  text-primary sm:text-5xl text-3xl leading-[120%]'>
+                <h2 className='font-bold text-primary sm:text-5xl text-3xl leading-[120%]'>
                     Real Stories. Real Funding.
                 </h2>
                 <p className='text-secondary text-sm sm:text-base leading-[150%] font-normal max-w-147.5 '>We’ve helped small businesses from all industries get approved and grow fast. Here’s what they had to say:</p>
@@ -15,7 +15,7 @@ const Funding = () => {
                             key={index}
                             className='min-[1157.1px]:w-[364.1px] max-w-[364.1px] h-[240.1px] max:[400.1px]:h-auto p-6 rounded-3xl shadow-[0_4px_54px_0_rgba(0,0,0,0.05)]'
                         >
-                            <div className='flex flex-col h-full  justify-between'>
+                            <div className='flex flex-col h-full justify-between'>
                                 <div >
                                     <Icons icon={data.stars} />
                                     <p className='text-left mt-4 max-w-127.5 font-normal text-base leading-[150%] text-secondary'>

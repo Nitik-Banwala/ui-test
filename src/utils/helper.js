@@ -1,19 +1,19 @@
 
 export const FEATURE = [
     {
-        icon: "Star",
+        icon: "star",
         text: "Smarter Systems. Faster Funding."
     },
     {
-        icon: "MoneyBag",
+        icon: "moneyBag",
         text: "Approvals That Make Sense"
     },
     {
-        icon: "Receipt",
+        icon: "receipt",
         text: "No Suits No Scripts. Just Results."
     },
     {
-        icon: "Shield",
+        icon: "shield",
         text: "Tech that speeds things up"
     },
 ];
@@ -72,4 +72,35 @@ export const CARDDATA = [
         role: "Food Truck Owner, Chicago IL",
         image: "/assets/images/Funding3.webp",
     },
+];
+export const QUICKLINKS = [
+    "Home",
+    "Programs",
+    "How It Works",
+    "About",
+    "Testimonials"]
+
+export const LEAGELINKS = ["Terms & Conditions",
+    "Privacy Policy"]
+
+export const CONTACTLINKS = [
+    {
+        icon: "phone",
+        label: "520-702-5510"
+    },
+    {
+        icon: "mail",
+        label: "Admin@rabbitfunding.io"
+    },
+    {
+        icon: "location",
+        label: "28 Liberty St, NY, NY, 10005"
+    },
+]
+export const NAVLINKS = [
+    "Home",
+    "Programs",
+    "How It Works",
+    "Testimonial",
+    "About"
 ];

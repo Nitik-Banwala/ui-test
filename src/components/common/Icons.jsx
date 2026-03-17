@@ -86,7 +86,7 @@ const Icons = ({ icon, }) => {
         />
       </svg>
     ),
-    Up: (
+    upArrow: (
       <svg
         width="24"
         height="24"
@@ -113,7 +113,7 @@ const Icons = ({ icon, }) => {
         </defs>
       </svg>
     ),
-    Star: (
+    star: (
       <svg
         width="58"
         height="58"
@@ -132,7 +132,7 @@ const Icons = ({ icon, }) => {
         />
       </svg>
     ),
-    MoneyBag: (
+    moneyBag: (
       <svg
         width="31"
         height="34"
@@ -148,7 +148,7 @@ const Icons = ({ icon, }) => {
         />
       </svg>
     ),
-    Receipt: (
+    receipt: (
       <svg
         width="34"
         height="34"
@@ -164,7 +164,7 @@ const Icons = ({ icon, }) => {
         />
       </svg>
     ),
-    Shield: (
+    shield: (
       <svg
         width="29"
         height="34"

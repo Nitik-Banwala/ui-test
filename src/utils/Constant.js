@@ -1,0 +1,5 @@
+export const HOME = "/"
+export const PROGRAMS = "Programs"
+export const HOWITWORKS = "How It Works"
+export const ABOUT = "About"
+export const TESTIMONIAL = "Testimonials" 

@@ -1,9 +1,6 @@
 import { useState } from "react";
-
 import { useEffect } from "react";
-import Icons from "./Icons";
-
-const navLinks = ["Home", "Programs", "How It Works", "Testimonial", "About"];
+import { NAVLINKS } from "../../utils/helper";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,8 +27,8 @@ const Navbar = () => {
                     <img src="/assets/images/svg/footerlogo.svg" alt="idkhsfjbad,nm" />
                 </div>
                 <div className="lg:flex gap-6 hidden">
-                    {navLinks.map(link => (
-                        <a key={link} className={`${link === "Home" ? " font-semibold text-primary" :" text-secondary "} hover:underline  text-base cursor-pointer`}>{link}</a>
+                    {NAVLINKS.map(link => (
+                        <a key={link} href="#" className={`${link === "Home" ? " font-semibold text-primary" :" text-secondary "} hover:underline text-base cursor-pointer`}>{link}</a>
                     ))}
                 </div>
 
@@ -46,8 +43,8 @@ const Navbar = () => {
             </div>
             <div onClick={() => setIsOpen(false)} className={`lg:hidden fixed inset-0 bg-black/30 z-30 transition-opacity duration-300 ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} />
             <div className={`lg:hidden fixed top-0 right-0 h-full w-72 bg-white z-40 flex flex-col pt-24 px-8 gap-6 transition-transform duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
-                {navLinks.map(link => (
-                    <a key={link} onClick={() => setIsOpen(false)} className={` ${link === "Home" && "font-semibold text-primary"}cursor-pointer text-primary  text-base hover:font-semibold border-b border-gray-100 pb-4 hover:text-green transition-colors`}>
+                {NAVLINKS.map(link => (
+                    <a key={link} href="#" onClick={() => setIsOpen(false)} className={` ${link === "Home" && "font-semibold text-primary"}cursor-pointer text-primary text-base hover:font-semibold border-b border-gray-100 pb-4 hover:text-green transition-colors`}>
                         {link}
                     </a>
                 ))}
